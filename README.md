@@ -1,4 +1,4 @@
-# Pre-dynasti-Egyptian-granite-vase
+# Predynastic-Egyptian-granite-vase
 Data extracted from STL file from scan of the vase together with some POV-Ray SDL code
 
 The data was converted from the STL file that can be found here:
