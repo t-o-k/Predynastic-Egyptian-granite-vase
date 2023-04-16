@@ -25,6 +25,10 @@ https://unchartedx.com/site/2023/02/19/new-video-updates-to-the-vase-scan-respon
 [Source code](POV-Ray_files/Vase_Inside_Outside_Dir_NegY.pov)\
 ![Vase Inside Outside Direction -Y](POV-Ray_files/Vase_Inside_Outside_Dir_NegY.png)
 
+### Vase Clipped
+[Source code](POV-Ray_files/Vase_Clipped.pov)\
+![Vase Clipped](POV-Ray_files/Vase_Clipped.png)
+
 ### Project homepage
 
 https://github.com/t-o-k/Predynastic-Egyptian-granite-vase/
