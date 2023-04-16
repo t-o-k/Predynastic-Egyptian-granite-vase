@@ -9,6 +9,10 @@ https://unchartedx.com/site/2023/02/19/new-video-updates-to-the-vase-scan-respon
 
 ## Images created with the examples:
 
+### Vase
+[Source code](POV-Ray_files/Vase.pov)\
+![Vase](POV-Ray_files/Vase.png)
+
 ### Vase Inside & Outside Direction +X
 [Source code](POV-Ray_files/Vase_Inside_Outside_Dir_PosX.pov)\
 ![Vase Inside Outside Direction +X](POV-Ray_files/Vase_Inside_Outside_Dir_PosX.png)
