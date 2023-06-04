@@ -37,6 +37,10 @@ https://unchartedx.com/site/2023/02/19/new-video-updates-to-the-vase-scan-respon
 [Source code](POV-Ray_files/Vase_Edges.pov)\
 ![Vase Edges](POV-Ray_files/Vase_Edges.png)
 
+### Vase Vertex Normals
+[Source code](POV-Ray_files/Vase_Vertex_Normals.pov)\
+![Vase Vertex Normals](POV-Ray_files/Vase_Vertex_Normals.png)
+
 ### Project homepage
 
 https://github.com/t-o-k/Predynastic-Egyptian-granite-vase/
