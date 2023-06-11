@@ -20,8 +20,8 @@ global_settings { assumed_gamma 1.0 }
 #include "Vertices.inc"
 #include "Edge_Vertex_Indices.inc"
 
-#declare vOffset = <+0.7,  0.0, -39.0>/1000;
-#declare Angle = -12.68;
+#declare vOffset = <+0.7,  0.0, -39.0>/1000; // Inches
+#declare Angle = -12.68; // Degrees
 
 #declare SphereRadius = 0.0004;
 #declare CylinderRadius = 0.0004;
