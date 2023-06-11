@@ -33,7 +33,7 @@ default {
 
 #declare SphereRadius = 0.001;
 
-#declare vOffset = <+0.7,  0.0, -39.0>/1000;
+#declare vOffset = <+0.7,  0.0, -39.0>/1000; // Inches
 
 #declare VaseRadii =
     union {
