@@ -7,7 +7,7 @@ https://unchartedx.com/site/wp-content/uploads/2023/02/Vase.stl
 Here is the page about the scan and the STL file:
 https://unchartedx.com/site/2023/02/19/new-video-updates-to-the-vase-scan-responses-and-the-stl-file/
 
-## Images created with the examples:
+## Images created with the POV-Ray examples:
 
 ### Vase
 [Source code](POV-Ray_files/Vase.pov)\
