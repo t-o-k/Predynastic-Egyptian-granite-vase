@@ -21,8 +21,8 @@ global_settings { assumed_gamma 1.0 }
 #include "Face_Vertex_Indices.inc"
 #include "Vertex_Normals.inc"
 
-#declare vOffset = <+0.7,  0.0, -39.0>/1000;
-#declare Angle = -12.68;
+#declare vOffset = <+0.7,  0.0, -39.0>/1000; // Inches
+#declare Angle = -12.68; // Degrees
 
 #declare VertexSphereRadius = 0.0012;
 #declare NormalCylinderRadius = 0.0008;
