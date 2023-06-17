@@ -11,16 +11,27 @@ which can be found in the LICENSE file.
 */
 // ===== 1 ======= 2 ======= 3 ======= 4 ======= 5 ======= 6 ======= 7 ======= 8 ======= 9
 
+// Render options: +a0.1 +w1600 +h1200
+
 #version 3.7;
 
 global_settings { assumed_gamma 1.0 }
 
 // ===== 1 ======= 2 ======= 3 ======= 4 ======= 5 ======= 6 ======= 7 ======= 8 ======= 9
 
+// Vertices = array[NoOfVertices] { }
 #include "Vertices.inc"
+
+// VertexIndicesOutside = array[NoOfVertexIndicesOutside] { }
 #include "Vertex_Indices_Outside.inc"
+
+// FaceVertexIndices = array[NoOfFaces] { }
 #include "Face_Vertex_Indices.inc"
+
+// FaceIndicesOutside = array[NoOfFaceIndicesOutside] { }
 #include "Face_Indices_Outside.inc"
+
+// ===== 1 ======= 2 ======= 3 ======= 4 ======= 5 ======= 6 ======= 7 ======= 8 ======= 9
 
 #declare Tau = 2*pi;
 
