@@ -11,10 +11,11 @@ which can be found in the LICENSE file.
 */
 // ===== 1 ======= 2 ======= 3 ======= 4 ======= 5 ======= 6 ======= 7 ======= 8 ======= 9
 
+// Render options: +a0.1 +w1600 +h1200
+
 #version 3.7;
 
 global_settings { assumed_gamma 1.0 }
-
 
 default {
     texture {
@@ -29,7 +30,11 @@ default {
 // ===== 1 ======= 2 ======= 3 ======= 4 ======= 5 ======= 6 ======= 7 ======= 8 ======= 9
 
 #include "functions.inc"  // For f_r()
+
+// Vertices = array[NoOfVertices] { }
 #include "Vertices.inc"
+
+// ===== 1 ======= 2 ======= 3 ======= 4 ======= 5 ======= 6 ======= 7 ======= 8 ======= 9
 
 #declare SphereRadius = 0.001;
 
