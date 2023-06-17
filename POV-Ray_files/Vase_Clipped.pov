@@ -1,4 +1,17 @@
 // ===== 1 ======= 2 ======= 3 ======= 4 ======= 5 ======= 6 ======= 7 ======= 8 ======= 9
+/*
+
+https://github.com/t-o-k/Predynastic-Egyptian-granite-vase
+
+Copyright (c) 2023 Tor Olav Kristensen, http://subcube.com
+
+Use of this source code is governed by the GNU Lesser General Public License version 3,
+which can be found in the LICENSE file.
+
+*/
+// ===== 1 ======= 2 ======= 3 ======= 4 ======= 5 ======= 6 ======= 7 ======= 8 ======= 9
+
+// Render options: +a0.1 +w1600 +h1200
 
 #version 3.7;
 
@@ -6,8 +19,13 @@ global_settings { assumed_gamma 1.0 }
 
 // ===== 1 ======= 2 ======= 3 ======= 4 ======= 5 ======= 6 ======= 7 ======= 8 ======= 9
 
+// Vertices = array[NoOfVertices] { }
 #include "Vertices.inc"
-#include "Face_Vertex_Indices"
+
+// FaceVertexIndices = array[NoOfFaces] { }
+#include "Face_Vertex_Indices.inc"
+
+// ===== 1 ======= 2 ======= 3 ======= 4 ======= 5 ======= 6 ======= 7 ======= 8 ======= 9
 
 #declare vOffset = <+0.7,  0.0, -39.0>/1000; // Inches
 #declare Angle = -12.68; // Degrees
