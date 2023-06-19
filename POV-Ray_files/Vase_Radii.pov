@@ -31,7 +31,7 @@ default {
 
 #include "functions.inc"  // For f_r()
 
-// Vertices = array[NoOfVertices] { }
+// Vertices = array[NoOfVertices]
 #include "Vertices.inc"
 
 // ===== 1 ======= 2 ======= 3 ======= 4 ======= 5 ======= 6 ======= 7 ======= 8 ======= 9
