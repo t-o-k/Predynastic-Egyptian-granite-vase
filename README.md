@@ -45,6 +45,10 @@ https://unchartedx.com/site/2023/02/19/new-video-updates-to-the-vase-scan-respon
 [Source code](POV-Ray_files/Vase_Radii_Heights_Angles.pov)\
 ![Vase Radii Heights Angles](POV-Ray_files/Vase_Radii_Heights_Angles.png)
 
+### Vase Mesh Inside Outside
+[Source code](POV-Ray_files/Vase_Mesh_Inside_Outside.pov)\
+![Vase Mesh Inside Outside](POV-Ray_files/Vase_Mesh_Inside_Outside.png)
+
 ### Project homepage
 
 https://github.com/t-o-k/Predynastic-Egyptian-granite-vase/
