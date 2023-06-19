@@ -19,13 +19,13 @@ global_settings { assumed_gamma 1.0 }
 
 // ===== 1 ======= 2 ======= 3 ======= 4 ======= 5 ======= 6 ======= 7 ======= 8 ======= 9
 
-// Vertices = array[NoOfVertices] { }
+// Vertices = array[NoOfVertices]
 #include "Vertices.inc"
 
-// FaceVertexIndices = array[NoOfFaces] { }
+// FaceVertexIndices = array[NoOfFaces][3]
 #include "Face_Vertex_Indices.inc"
 
-// VertexNormals = array[NoOfVertexNormals] { }
+// VertexNormals = array[NoOfVertexNormals]
 #include "Vertex_Normals.inc"
 
 // ===== 1 ======= 2 ======= 3 ======= 4 ======= 5 ======= 6 ======= 7 ======= 8 ======= 9
