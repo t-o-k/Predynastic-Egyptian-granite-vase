@@ -19,16 +19,16 @@ global_settings { assumed_gamma 1.0 }
 
 // ===== 1 ======= 2 ======= 3 ======= 4 ======= 5 ======= 6 ======= 7 ======= 8 ======= 9
 
-// Vertices = array[NoOfVertices] { }
+// Vertices = array[NoOfVertices]
 #include "Vertices.inc"
 
-// VertexIndicesOutside = array[NoOfVertexIndicesOutside] { }
+// VertexIndicesOutside = array[NoOfVertexIndicesOutside]
 #include "Vertex_Indices_Outside.inc"
 
-// FaceVertexIndices = array[NoOfFaces] { }
+// FaceVertexIndices = array[NoOfFaces][3]
 #include "Face_Vertex_Indices.inc"
 
-// FaceIndicesOutside = array[NoOfFaceIndicesOutside] { }
+// FaceIndicesOutside = array[NoOfFaceIndicesOutside]
 #include "Face_Indices_Outside.inc"
 
 // ===== 1 ======= 2 ======= 3 ======= 4 ======= 5 ======= 6 ======= 7 ======= 8 ======= 9
