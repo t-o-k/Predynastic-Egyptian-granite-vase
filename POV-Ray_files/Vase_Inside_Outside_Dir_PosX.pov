@@ -29,13 +29,13 @@ default {
 
 // ===== 1 ======= 2 ======= 3 ======= 4 ======= 5 ======= 6 ======= 7 ======= 8 ======= 9
 
-// Vertices = array[NoOfVertices] { }
+// Vertices = array[NoOfVertices]
 #include "Vertices.inc"
 
-// VertexIndicesInside = array[NoOfVertexIndicesInside] { }
+// VertexIndicesInside = array[NoOfVertexIndicesInside]
 #include "Vertex_Indices_Inside.inc"
 
-// VertexIndicesOutside = array[NoOfVertexIndicesOutside] { }
+// VertexIndicesOutside = array[NoOfVertexIndicesOutside]
 #include "Vertex_Indices_Outside.inc"
 
 // ===== 1 ======= 2 ======= 3 ======= 4 ======= 5 ======= 6 ======= 7 ======= 8 ======= 9
