@@ -49,6 +49,14 @@ https://unchartedx.com/site/2023/02/19/new-video-updates-to-the-vase-scan-respon
 [Source code](POV-Ray_files/Vase_Mesh_Inside_Outside.pov)\
 ![Vase Mesh Inside Outside](POV-Ray_files/Vase_Mesh_Inside_Outside.png)
 
+### Vase As Disc
+[Source code](POV-Ray_files/Vase_As_Disc.pov)\
+![Vase As Disc](POV-Ray_files/Vase_As_Disc.png)
+
+### Vase As Disc Inside Outside
+[Source code](POV-Ray_files/Vase_As_Disc_Inside_Outside.pov)\
+![Vase As Disc Inside Outside](POV-Ray_files/Vase_As_Disc_Inside_Outside.png)
+
 ### Project homepage
 
 https://github.com/t-o-k/Predynastic-Egyptian-granite-vase/
