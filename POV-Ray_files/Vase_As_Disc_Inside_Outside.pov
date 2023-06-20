@@ -53,7 +53,7 @@ global_settings { assumed_gamma 1.0 }
     #declare TrVertices[I] = Height*(Cos*x + Sin*z) + Radius*y;
 #end // for
 
-#declare SphereRadius = 0.002;
+#declare SphereRadius = 0.003;
 
 #declare SpheresInside =
     union {
@@ -71,26 +71,46 @@ global_settings { assumed_gamma 1.0 }
         #end // for
     }
 
-#declare MeshInside =
-    mesh {
-        #for (K, 0, NoOfFaceIndicesInside - 1)
-            #declare J = FaceIndicesInside[K];
-            #declare I0 = FaceVertexIndices[J][0];
-            #declare I1 = FaceVertexIndices[J][1];
-            #declare I2 = FaceVertexIndices[J][2];
-            triangle { TrVertices[I0], TrVertices[I1], TrVertices[I2] }
-        #end // for
+#declare Mesh2_Inside =
+    mesh2 {
+        vertex_vectors {
+            NoOfVertices,
+            #for (I, 0, NoOfVertices - 1)
+                TrVertices[I],
+            #end // for
+        }
+        face_indices {
+            NoOfFaceIndicesInside ,
+            #for (K, 0, NoOfFaceIndicesInside - 1)
+                #declare J = FaceIndicesInside[K];
+                <
+                    FaceVertexIndices[J][0],
+                    FaceVertexIndices[J][1],
+                    FaceVertexIndices[J][2]
+                >,
+            #end // for
+        }
     }
 
-#declare MeshOutside =
-    mesh {
-        #for (K, 0, NoOfFaceIndicesOutside - 1)
-            #declare J = FaceIndicesOutside[K];
-            #declare I0 = FaceVertexIndices[J][0];
-            #declare I1 = FaceVertexIndices[J][1];
-            #declare I2 = FaceVertexIndices[J][2];
-            triangle { TrVertices[I0], TrVertices[I1], TrVertices[I2] }
-        #end // for
+#declare Mesh2_Outside =
+    mesh2 {
+        vertex_vectors {
+            NoOfVertices,
+            #for (I, 0, NoOfVertices - 1)
+                TrVertices[I],
+            #end // for
+        }
+        face_indices {
+            NoOfFaceIndicesOutside ,
+            #for (K, 0, NoOfFaceIndicesOutside - 1)
+                #declare J = FaceIndicesOutside[K];
+                <
+                    FaceVertexIndices[J][0],
+                    FaceVertexIndices[J][1],
+                    FaceVertexIndices[J][2]
+                >,
+            #end // for
+        }
     }
 
 union {
@@ -103,11 +123,11 @@ union {
         pigment { color rgb <0.0, 2.0, 2.0> }
     }
     object {
-        MeshInside
+        Mesh2_Inside
         pigment { color rgb <1.0, 0.5, 0.2> }
     }
     object {
-        MeshOutside
+        Mesh2_Outside
         pigment { color rgb <0.2, 0.5, 1.0> }
     }
     translate -1.1*y
